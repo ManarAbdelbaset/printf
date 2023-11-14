@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
+int _putchar(char c)
 int _printf(const char *format, ...);
 int souf(const char *format, int count, va_list args);
 int soufian_s(int count);
